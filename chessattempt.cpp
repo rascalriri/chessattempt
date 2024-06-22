@@ -35,6 +35,6 @@ for (i = 48; i < 64; i++);
 Squares[i].status = 2
 
 for (i = 8; i < 16; i++);
-Squares[i].
+Squares[i].piecetype = 1
   // set square value of starting position 
 
