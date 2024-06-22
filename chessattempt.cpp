@@ -1,17 +1,17 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 class Square
 {
-public:
-   enum status;
+   public:
+
+class mmmm
 {
-none, 
-white,
-black
-};
+public:
+   enum status 
+   {
+
+public:
   enum piecetype;  // ID would look like [index](status, piecetype) = [i](0,0) 
 {none, 
 pawn, 
@@ -25,6 +25,7 @@ fanatic,
 skeleton,
 hero
 };
+}
 
 void board(){
 Square Squares[64];
@@ -36,5 +37,19 @@ Squares[i].status = 2
 
 for (i = 8; i < 16; i++);
 Squares[i].piecetype = 1
-  // set square value of starting position 
 
+}
+std::main testfun()
+{
+std::string testoutput = "";
+for (int i = 0;i < 64;i++):
+    if Squares[i].piecetype == 1:
+    testoutput += i + ". "
+    else 
+      return();
+
+ cout << "pawn on Square " << testouput << endl;
+return
+}
+}
+  // set square value of starting position
