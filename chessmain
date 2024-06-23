@@ -9,8 +9,9 @@ int main()
 class Piece 
 {
   public:
-  int posx, posy;
-  char pieceteam, piecetype;
+    int square;
+  private:
+    char type, team;
 };
   
 Piece Pieces[36];
