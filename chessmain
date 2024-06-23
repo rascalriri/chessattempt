@@ -1,0 +1,18 @@
+#include <iostream>
+#include <array>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+class Piece 
+{
+  public:
+  int posx, posy;
+  char pieceteam, piecetype;
+};
+  
+Piece Pieces[36];
+  
+}
